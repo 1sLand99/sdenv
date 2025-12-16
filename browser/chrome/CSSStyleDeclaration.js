@@ -1,4 +1,3 @@
-
 module.exports = (sdenv) => {
   const window = sdenv.memory.window;
   const { wrapFunc, monitor } = sdenv.tools;

@@ -1,5 +1,3 @@
-const logger = require('@utils/logger');
-
 module.exports = (sdenv) => {
   const window = sdenv.memory.window;
   const setFuncNative = sdenv.tools.setFuncNative;

@@ -1,4 +1,3 @@
-const logger = require('@utils/logger');
 /*
  * Object.keys(console).filter(key => typeof console[key] === 'function').map(key => ({key, name: console[key].name, length: console[key].length}))
  */

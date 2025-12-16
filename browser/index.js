@@ -1,7 +1,8 @@
 const SdenvExtend = require('sdenv-extend');
 
 module.exports = (win, type = 'chrome') => {
-  return require(`@/browser/${type}`)(new SdenvExtend({ }, win));
+  if (type === 'chrome') return require('./chrome/')(new SdenvExtend({ }, win));
+  throw new Error(`浏览器类型${type}未适配！`);
 }
 
 module.exports.supports = ['chrome'];

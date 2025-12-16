@@ -1,4 +1,3 @@
-const utils = require('sdenv-jsdom/lib/jsdom/living/generated/utils.js');
 module.exports = (sdenv) => {
   const document = sdenv.memory.window.document;
   const getElementsByTagNameOri = document.getElementsByTagName;

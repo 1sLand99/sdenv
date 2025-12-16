@@ -1,4 +1,4 @@
-const getDocumentAll = require('@/build/Release/documentAll').getDocumentAll;
+const getDocumentAll = require('../../build/Release/documentAll').getDocumentAll;
 module.exports = (sdenv) => {
   const window = sdenv.memory.window;
   const { wrapFunc, monitor } = sdenv.tools;

@@ -1,4 +1,4 @@
-const logger = require('@utils/logger');
+const logger = require('../../utils/logger');
 const utils = require('sdenv-jsdom/lib/jsdom/living/generated/utils.js');
 
 module.exports = (sdenv) => {
